@@ -2,10 +2,10 @@
 
 A scaffolded C/C++ development repository providing two parallel workflows:
 
-1. **Docker Environment** (`docker-env/`)  
-   Ubuntu 24.04 container with GCC, GDB and Valgrind for reproducible Linux builds and memory checking.
+1. **[Docker Environment](https://www.docker.com/)** (`docker-env/`)  
+   Ubuntu 24.04 container with [GCC](https://gcc.gnu.org/), [GDB](https://sourceware.org/gdb/) and [Valgrind](https://valgrind.org/) for reproducible Linux builds and memory checking.
 
-2. **VS Code Environment** (`vscode-env/`)  
+2. **[VS Code Environment](https://code.visualstudio.com/)** (`vscode-env/`)  
    Native macOS build & debug setup using VS Code’s tasks and launch configurations.
 
 ---
