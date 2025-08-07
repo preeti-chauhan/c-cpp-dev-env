@@ -31,5 +31,5 @@ c-cpp-dev-env/
 
 ## Automated Setup
 
-A global script (`init-all.sh`) can fully bootstrap your local clone: [readme]()
+A global script (`init-all.sh`) can fully bootstrap your local clone: [readme](https://github.com/preeti-chauhan/c-cpp-dev-env/blob/main/scripts_ref/readme.md)
 
