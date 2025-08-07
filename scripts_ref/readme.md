@@ -169,3 +169,18 @@ docker run --rm -it \
 code vscode-env
 ```
 
+## GitHub Quick Help:
+
+### 1. Make sure the local repository is up to date
+git pull
+
+### 2. Stage all changes (new files, edits, deletions)
+git add .
+
+### 3. Commit with a descriptive message
+git commit -m "something descriptive"
+
+### 4. Push to remote ‘main’ branch
+git push -u origin main
+
+
