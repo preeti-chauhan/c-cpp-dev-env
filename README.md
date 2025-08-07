@@ -23,6 +23,7 @@ c-cpp-dev-env/
 
 ## Prerequisites
 
+- Host Machine: macOS (Apple Silicon)  
 - Docker Desktop (Linux container mode)  
 - Visual Studio Code with the **C/C++** extension by Microsoft  
 - Git installed and configured (SSH keys or HTTPS credentials)
