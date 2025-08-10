@@ -169,6 +169,8 @@ docker run --rm -it \
 code vscode-env
 ```
 
+(Further setup required for C/C++ to work.)
+
 ## GitHub Quick Help:
 
 ### 1. Make sure the local repository is up to date
