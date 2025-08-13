@@ -48,6 +48,7 @@ code .
 
 ## Folder Structure
 
+```bash
 vscode-env/
 │
 ├── .vscode/                # VS Code project configuration
@@ -66,7 +67,7 @@ vscode-env/
 │
 ├── build.sh                   # Build script (C & C++)
 └── README.md                  # Project documentation
-
+```
 
 **Notes:**
 
