@@ -1,11 +1,36 @@
 {
-  "version": "0.2.0",
-  "configurations": [{
-    "name": "Debug",
-    "type": "cppdbg",
-    "request": "launch",
-    "program": "\${fileDirname}/\${fileBasenameNoExtension}",
-    "cwd": "\${workspaceFolder}",
-    "MIMode": "gdb"
-  }]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C file (LLDB)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/c/${fileBasenameNoExtension}",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build C file",
+            "terminal": "integrated"
+        },
+        {
+            "name": "Debug C++ file (LLDB)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cpp/${fileBasenameNoExtension}",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build C++ file",
+            "terminal": "integrated"
+        },
+        {
+            "name": "C/C++: clang build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang build active file"
+        }
+    ]
 }

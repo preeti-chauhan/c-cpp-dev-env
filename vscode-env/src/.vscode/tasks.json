@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build C file",
+      "type": "shell",
+      "options": { "cwd": "${workspaceFolder}" },
+      "command": "/bin/bash",
+      "args": ["-lc", "set -e; echo 'TASK: building ${file}'; ./build.sh \"${file}\""],
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "build C++ file",
+      "type": "shell",
+      "options": { "cwd": "${workspaceFolder}" },
+      "command": "/bin/bash",
+      "args": ["-lc", "set -e; echo 'TASK: building ${file}'; ./build.sh \"${file}\""],
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}
