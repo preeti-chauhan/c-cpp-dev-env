@@ -169,7 +169,7 @@ docker run --rm -it \
 code vscode-env
 ```
 
-([readme_vscode.md]()Further setup required for C/C++ to work.)
+([readme_vscode.md]() Further setup required for C/C++ to work.)
 
 ## GitHub Quick Help:
 
